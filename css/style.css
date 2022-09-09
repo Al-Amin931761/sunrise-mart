@@ -63,7 +63,7 @@ button {
 
 /* ------------ Header Section ------------- */
 header {
-    /* padding: 0 20rem; */
+    padding: 0 5rem;
     width: 100%;
 }
 
@@ -99,7 +99,7 @@ header nav ul a li:hover {
 
 /* ----------- Hero Section ----------- */
 .hero-section {
-    /* padding: 0 20rem; */
+    padding: 0 5rem;
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -137,11 +137,12 @@ header nav ul a li:hover {
 
 .hero-section .hero-image img {
     width: 100%;
+    border-radius: 2rem;
 }
 
 /* Products Section */
 .products-section {
-    /* padding: 0 20rem; */
+    padding: 0 5rem;
     margin-bottom: 5rem;
 }
 
@@ -188,6 +189,45 @@ header nav ul a li:hover {
     font-size: 1.5rem;
     margin-top: 1rem;
     font-weight: 700;
+}
+
+/*  Services Section  */
+.services-section {
+    padding: 0 5rem;
+    margin-bottom: 5rem;
+}
+
+.services-section h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.services-section .services {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    justify-items: center;
+}
+
+.services-section .service {
+    width: 25rem;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.services-section .service img {
+    width: 80%;
+}
+
+.services-section .service p {
+    text-align: center;
 }
 
 /* Footer Section */
