@@ -45,6 +45,7 @@ li {
 
 button {
     padding: 1rem 3rem;
+    border: none;
     border-radius: 2rem;
     outline: none;
     line-height: 3.6rem;
@@ -52,7 +53,7 @@ button {
     cursor: pointer;
     font-style: normal;
     font-weight: normal;
-    font-style: 2rem;
+    font-size: 2rem;
 }
 
 /* ------------ Header Section ------------- */
@@ -89,4 +90,46 @@ header nav ul a li {
 header nav ul a li:hover {
     transition: all 0.2s;
     color: #4b709e;
+}
+
+/* ----------- Hero Section ----------- */
+.hero-section {
+    padding: 0 20rem;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+
+/* Hero Section Left Side */
+.hero-section .hero-content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.hero-section .hero-content h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 3rem;
+    text-transform: capitalize;
+}
+
+.hero-section .hero-content p {
+    margin-bottom: 3rem;
+}
+
+/* Hero Section Right Side */
+.hero-section .hero-image {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-section .hero-image img {
+    width: 100%;
 }
