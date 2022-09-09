@@ -20,6 +20,11 @@ h3 {
     color: #606d5f;
 }
 
+h3 {
+    font-size: 2.2rem;
+    text-transform: capitalize;
+}
+
 p,
 li,
 a,
@@ -58,7 +63,7 @@ button {
 
 /* ------------ Header Section ------------- */
 header {
-    padding: 0 20rem;
+    /* padding: 0 20rem; */
     width: 100%;
 }
 
@@ -94,7 +99,7 @@ header nav ul a li:hover {
 
 /* ----------- Hero Section ----------- */
 .hero-section {
-    padding: 0 20rem;
+    /* padding: 0 20rem; */
     height: 80vh;
     display: flex;
     justify-content: center;
@@ -132,4 +137,55 @@ header nav ul a li:hover {
 
 .hero-section .hero-image img {
     width: 100%;
+}
+
+/* Products Section */
+.products-section {
+    /* padding: 0 20rem; */
+    margin-bottom: 5rem;
+}
+
+.products-section h1 {
+    font-size: 5rem;
+    line-height: 5rem;
+    margin-bottom: 4rem;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.products-section .products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+    justify-items: center;
+}
+
+/* Product Card */
+.products-section .products .product-card {
+    width: 25rem;
+    height: 25rem;
+    background-color: #efefefef;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin-bottom: 2rem;
+}
+
+.products-section .products .product-card img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.products-section .products .product-card .buy-now-btn {
+    background-color: #fff;
+    border: 2px solid #efefeffe;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    line-height: 1rem;
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    font-weight: 700;
 }
